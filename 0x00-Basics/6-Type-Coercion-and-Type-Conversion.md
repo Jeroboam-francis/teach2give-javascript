@@ -1,4 +1,5 @@
 # TYPES OF COERCION AND TYPE CONVERSION
+
 Involves changing values of datatypes to another datatype.
 
 ## TYPES  COERCION - Implicit coercion
@@ -19,7 +20,8 @@ Happens when we explicitly convert one datatype into another.
 
 methods of type conversion
 
-#### 1.  Convert to string  using toString() or string ()
+### 1. Convert to string  using toString() or string ()
+
 example
 
 ```javascript
@@ -29,7 +31,7 @@ console.log(String( 10 )):
 
 ```
 
-#### 2. Convert to number using Number() , parseInt() or parseFloat()
+### 2. Convert to number using Number() , parseInt() or parseFloat()
 
 example
 
@@ -47,4 +49,3 @@ console.log (parseInt ("10") )
 console.log( boolean(0))// false
 console.log ( "hello world")
 ```
-

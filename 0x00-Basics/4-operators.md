@@ -3,13 +3,14 @@
 Operators are symbols that are used to perform operations on variables and values.
 In JavaScript, there are several types of operators, including arithmetic operators, comparison operators, logical operators, assignment operators, and more.
 
-### 1. ARITHMETIC OPERATORS
-Used to perform mathemetic operations such as addition, subtraction, multiplication, and division.
+## 1. ARITHMETIC OPERATORS
 
+Used to perform mathemetic operations such as addition, subtraction, multiplication, and division.
 
  A. Addition (+)
 
 Adds two or more numbers
+
 ```javascript
 // Adding two numbers
 let x = 10;
@@ -26,12 +27,11 @@ console.log( firtsName+secondName ):
 //Output JeroboamFrancis 
 ```
 
-
 B. Subtraction(-)
 
 This subtracts operands and returns the difference between them ie right operand from the left operand
 
-```javascript 
+```javascript
 
 //Subracting 
 
@@ -46,7 +46,7 @@ C. Multiplication(*)
 
 This multiplies operands and returns the product of them
 
-```javascript 
+```javascript
 
 //Multiplying 
 
@@ -56,7 +56,6 @@ console.log( x*y ):
 //Output 50
 
 ```
-
 
 D. Division(/)
 
@@ -87,6 +86,7 @@ console.log( x%y ):
 //Output 0
 
 ```
+
 F. Exponentiation(**)
 
 This raises the left operand to the power of the right operand and returns the result
@@ -103,7 +103,9 @@ console.log( x**y ):
 ```
 
 ### 2.  INCREMENT AND DECREMENT OPERATORS
-###### Increment operator(++)
+
+#### Increment operator(++)
+
 This increments the value of a variable by 1
 
 ```javascript
@@ -119,8 +121,9 @@ console.log( ++Y ): // returns  6 then increments the value of y by 1
 
 ```
 
-###### Decrement operator(--)
-This decrements the value of a variable by 1    
+##### Decrement operator(--)
+
+This decrements the value of a variable by 1
 
 ```javascript
 
@@ -135,10 +138,13 @@ console.log ( x ): // returns 9
 let y = 5; console.log( --Y ): // returns  4 then decrements the value of y by 1
 
 ```
+
 ### 3.  ASSIGNMENT OPERATORS (=' +=, -=, *=, /=, %=, **=')
+
 This is used to assign a value to a variable
 
-###### A. Simple assignment operator(=)
+#### A. Simple assignment operator(=)
+
 Used to assign a value to a variable
 
 ```javascript
@@ -150,12 +156,13 @@ console.log( x ): // returns 10
 
 ```
 
-###### B. Additiional assignment operator(+=)
+##### B. Additiional assignment operator(+=)
+
 Used to add a value to a variable
 
 ```javascript
 
-//Additiional assignment operator
+//Additional assignment operator
 
 let x = 10;
 x += 5;
@@ -164,6 +171,7 @@ console.log( x ): // returns 15
 ```
 
 ###### C. Subtraction assignment operator(-=)
+
 Used to subtract a value from a variable
 
 ```javascript
@@ -177,6 +185,7 @@ console.log( x ): // returns 5
 ```
 
 ###### D. Multiplication assignment operator(*=)
+
 Used to multiply a value to a variable
 
 ```javascript
@@ -190,6 +199,7 @@ console.log( x ): // returns 50
 ```
 
 ###### E. Division assignment operator(/=)
+
 Used to divide a value to a variable
 
 ```javascript
@@ -201,14 +211,14 @@ x /= 5;
 console.log( x ): // returns 2
 
 ```
+
 ### 4. COMPARISON OPERATORS
+
 Used to compare values and return true or false
 
-##### A. Equality operator(==) and strict equality operator(===)
-
+#### A. Equality operator(==) and strict equality operator(===)
 
 Equality operator(==)
-
 
 Returns true if the operands are equal to each other and false otherwise and also ignores datatypes  and does only comparison
 
@@ -223,12 +233,9 @@ console.log( x==5 ): // returns false
 
 ```
 
-
 Strict Equality operator(===)
 
-
 Returns true if the operands are equal to each other and false otherwise and also checks the datatypes
-
 
 ```javascript
 
@@ -242,7 +249,6 @@ console.log( x===10 ): // returns true
 ```
 
 ##### B. Inequality operator(!=) and Strict inequality operator(!==)
-
 
 Inequality operator(!=)
 
@@ -262,8 +268,7 @@ console.log( 10 != 10 ): // returns false
 
 ```
 
-
-Strict Inequality operator(!==) 
+Strict Inequality operator(!==)
 
 Returns true if the operand left is not equal to the operand right and false otherwise
 and checks datatypes and compares them
@@ -280,6 +285,7 @@ console.log( x!==10 ): // returns false
 console.log( 10 !== "10" ): // returns true
 
 ```
+
 ###### C. Greater than operator(>) and less than operator(<)
 
 i. Greater than operator(>)
@@ -327,6 +333,7 @@ console.log( y>=x): // returns false
 console.log( x>=x): // returns true
 
 ```
+
 iv. Less than or equal to operator(<=)
 
 Returns true if the operand left is less than or equal to the operand right and false otherwise
@@ -342,6 +349,7 @@ console.log( y<=x): // returns true
 console.log( x<=x): // returns true 
 
 ```
+
 ### 5. LOGICAL OPERATORS
 
 Used for boolean logic.
@@ -360,14 +368,12 @@ console.log( true && false ): // returns false
 
 Truth table for the AND operator
 
-
 | a | b | a && b |
 |---|---|---|
 | true | true | true |
 | true | false | false |
 | false | true | false |
 | false | false | false |
-
 
 ii. logical OR Operator (||)
 
@@ -385,12 +391,11 @@ console.log( false || false ): // returns false
 
 Truth table for the OR operator
 
-
 | a | b | a OR b |
 |---|---|---|
 | true | true | true |
 | true | false | true |
-| false | true | true | 
+| false | true | true |
 | false | false | false |
 
 iii. logical NOT Operator (!)
@@ -403,15 +408,3 @@ Used to negate boolean values i.e. true becomes false and false becomes true
 console.log( !true ): // returns false
 console.log( !false ): // returns true
 ```
-
-
-
-
-
-
-
-
-
-
-
-

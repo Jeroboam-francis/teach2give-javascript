@@ -1,10 +1,12 @@
 # STRING  CONCATENATION
+
 Process of joining tow or more strings together.
 
 There are several ways of concetenation including using the `+` operator, the `concat` method, and the `template literals` (backticks)
+
 ## 1. Using the `+` operator
 
-```javascript 
+```javascript
 
 let firstName = "Jeroboam";
 let lastName = "Francis";
@@ -16,7 +18,7 @@ console.log(" My full name is " fullName);
 
 ```
 
-## 2. Using the `+=' ` operator
+## 2. Using the `+='` operator
 
 ```javascript
 let message = "Hello";
@@ -26,8 +28,8 @@ console.log(message);
 // output Hello World
 
 ```
-## 3. Using Template Literals (Backticks(`)  and ($ {} ) placeholder)
 
+## 3. Using Template Literals (Backticks(`)  and ($ {} ) placeholder)
 
 ```javascript
 
@@ -37,5 +39,3 @@ console.log(` my name is ${firstNam} ${lastName}`);
 // output my name is Jeroboam Francis
 
 ```
-
-

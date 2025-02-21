@@ -4,7 +4,7 @@ Refers to the way events flow through the DOM tree.
 
 Event propagation is a way of defining the element order when an event occurs.
 
-_If you have a paragraph element inside a div element, both with click events attached, the user clicks on the paragraph element; which element's click event should be handled first?
+If you have a paragraph element inside a div element, both with click events attached, the user clicks on the paragraph element; which element's click event should be handled first?
 
 There are two ways of even propagation in the HTML DOM, bubbling and capturing.
 

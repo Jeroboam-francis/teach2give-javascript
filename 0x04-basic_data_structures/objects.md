@@ -47,19 +47,16 @@ creates multiple objects with shared properties and methods
 
 ```js
 function Student(firstName, lastName, age, location) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.age = age;
-    this.location = location;
-    this.greet = function () {
-        console.log ("Hello " + this.firstName);
-
-}
-
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.age = age;
+  this.location = location;
+  this.greet = function () {
+    console.log("Hello " + this.firstName);
+  };
 }
 
 const student1 = new Student("jeroboam", "francis", 25, "lagos");
-
 ```
 
 ## Accessing Object Properties
@@ -72,16 +69,15 @@ i. dot
 allows access to an object property using the dot followed by the property name
 
 ```js
-
 const student1 = {
-    firstName: "jeroboam",
-    lastName: "francis",
-    age: 25,
-    location: "lagos",
-    greet: function () {
-        console.log("Hello " + this.firstName);
-    }
-}
+  firstName: "jeroboam",
+  lastName: "francis",
+  age: 25,
+  location: "lagos",
+  greet: function () {
+    console.log("Hello " + this.firstName);
+  },
+};
 console.log(student1.firstName);
 //output: jeroboam
 console.log(student1.lastName);
@@ -93,7 +89,6 @@ ii. bracket
 allows access to an object property using the bracket followed by the property name
 
 ```js
-
 const student = {
   firstName: "John",
   lastName: "Doe",
@@ -108,7 +103,6 @@ console.log(student["firstName"]); // John
 console.log(student["lastName"]); // Doe
 console.log(student["age"]); // 25
 console.log(student["isStillStudying"]); // true
-
 ```
 
 ## Modifying Object Properties
@@ -132,10 +126,10 @@ student["graduationYear"] = 2026;
 ```
 
 ## Updating a property
+
 You can also use dot or bracket notation to update object's properties.
 
 ```javascript
-
 const student = {
   firstName: "John",
   lastName: "Doe",
@@ -148,7 +142,6 @@ const student = {
 
 student.age = 37;
 student["isStillStudying"] = false;
-
 ```
 
 ## Deleting a property
@@ -156,7 +149,6 @@ student["isStillStudying"] = false;
 Use the delete keyword to delete a property.
 
 ```javascript
-
 const student = {
   firstName: "John",
   lastName: "Doe",
@@ -182,7 +174,6 @@ The hasOwnProperty() method.
 ### The `in` keyword
 
 ```javascript
-
 const student = {
   firstName: "John",
   lastName: "Doe",
@@ -200,7 +191,6 @@ console.log("middleName" in student); // false
 ### The hasOwnProperty() method
 
 ```javascript
-
 const student = {
   firstName: "John",
   lastName: "Doe",
@@ -222,7 +212,6 @@ console.log(student.hasOwnProperty("middleName")); // false
 Returns an array containing all the keys of an object.
 
 ```javascript
-
 const student = {
   firstName: "John",
   lastName: "Doe",
@@ -242,7 +231,6 @@ console.log(Object.keys(student));
 Returns an array containing all the values of an object.
 
 ```javascript
-
 const student = {
   firstName: "John",
   lastName: "Doe",
@@ -262,7 +250,6 @@ console.log(Object.values(student));
 Object.entries() returns an array of key-value pairs from an object, making it useful for iteration.
 
 ```javascript
-
 const student = {
   firstName: "John",
   lastName: "Doe",

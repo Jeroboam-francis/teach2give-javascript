@@ -9,16 +9,13 @@ Changing the content of HTML elements
 Sets or gets the HTML content of an element.
 
 ```html
-
 <div id="my-div">
-    <h1>Hello, world</h1>
-    <p>JavaScript is awesome</p>
+  <h1>Hello, world</h1>
+  <p>JavaScript is awesome</p>
 </div>
-
 ```
 
 ```js
-
 const div = document.getElementById("my-div");
 console.log(div.innerHTML);
 div.innerHTML = `<h1>New content</h1>`;
@@ -31,8 +28,8 @@ Sets or get the text content of an element not preserving the HTML tags.
 
 ```html
 <div id="my-div">
-    <h1>Hello, world</h1>
-    <p>JavaScript is awesome</p>
+  <h1>Hello, world</h1>
+  <p>JavaScript is awesome</p>
 </div>
 ```
 
@@ -54,12 +51,10 @@ It is more consistent across browsers compared to innerText.
 We can use element.attribute = value.
 
 ```html
-
 <h1 class="title" id="title">Hello, world</h1>
 ```
 
 ```js
-
 const title = document.getElementById("title");
 console.log(title); // <h1 class="title" id="title">Hello, world</h1>
 title.id = "awesome-title";
@@ -69,7 +64,6 @@ console.log(title); // <h1 class="title" id="awesome-title">Hello, world</h1>
 We can also use `element.setAttribute("attribute", "value")`
 
 ```html
-
 <h1 class="title" id="title">Hello, world</h1>
 ```
 
@@ -78,7 +72,6 @@ const title = document.getElementById("title");
 console.log(title); // <h1 class="title" id="title">Hello, world</h1>
 title.setAttribute("id", "awesome-title");
 console.log(title);
-
 ```
 
 ## Changing the styling of HTML elements

@@ -11,8 +11,7 @@ The document object is the owner of all other objects on the page.
 Finds an element with id equivalent to elementId.
 
 ```javascript
-
-<button id="my-button">Click Me</button>
+<button id="my-button">Click Me</button>;
 const button = document.getElementById("my-button");
 console.log(button); // <button id="my-button">Click Me</button>
 ```
@@ -26,19 +25,14 @@ It returns a NodeList of all elements that match the tag name passed.
 You can index the specific element you want from this element the same way you would index an array.
 
 ```html
-
-
 <p>Hello, World</p>
 <p>JavaScript is awesome</p>
 <p>JavaScript is great</p>
-
 ```
 
 ```javascript
-
 const paragraphs = document.getElementsByTagName("p");
 console.log(paragraphs); // [p, p, p]
-
 ```
 
 ### `document.getElementsByClassName(className)`
@@ -48,17 +42,14 @@ Finds and returns a NodeList of all HTML elements with class attribute similar t
 You can index the specific element you want from this element the same way you would index an array.
 
 ```html
-
 <p class="text">Hello, World</p>
 <p class="text">JavaScript is awesome</p>
 <p>JavaScript is great</p>
-
 ```
 
 ```javascript
 const texts = document.getElementsByClassName("text");
 console.log(texts); // [p.text, p.text]
-
 ```
 
 ### `document.querySelector(selector)`
@@ -66,17 +57,14 @@ console.log(texts); // [p.text, p.text]
 Selects the first element in the document that matches a specified CSS selector, id or tag name.
 
 ```html
-
 <p class="text">Hello, World</p>
 <p class="text">JavaScript is awesome</p>
 <p>JavaScript is great</p>
 ```
 
 ```javascript
-
 const firstText = document.querySelector(".text");
 console.log(firstText);
-
 ```
 
 ### `document.querySelectorAll(selector)`
@@ -87,11 +75,9 @@ Selects all elements in the document that match the specified class, id or tag n
 <p class="text">Hello, World</p>
 <p class="text">JavaScript is awesome</p>
 <p>JavaScript is great</p>
-
 ```
 
 ```javascript
-const paragraphs = document.querySelectorAll('p');
+const paragraphs = document.querySelectorAll("p");
 console.log(paragraphs); // [p.text, p.text, p]
-
 ```

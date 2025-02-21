@@ -107,9 +107,9 @@ Adds one or more elements to the beginning of an array and returns the new lengt
 
 ```javascript
 const students = ["james", "john", "jack"];
-students.unshift("jeroboam", "nderi");
+students.unshift("jeroboam", "Francis");
 console.log(students);
-// output: ["jeroboam", "nderi", "james", "john", "jack"]
+// output: ["jeroboam", "francis", "james", "john", "jack"]
 
 ```
 

@@ -5,10 +5,11 @@ A map data structure is similar to an object, in that it allows you to store key
 However, unlike objects, keys in a map can be of any data type.
 
 ## Creating a map
+
 You can create a map using new Map()
 
 ```javascript
-const myMap = new Map()
+const myMap = new Map();
 ```
 
 ## Map methods
@@ -40,7 +41,6 @@ console.log(myMap);
 Returns the value associated with the specific key in the map or undefined if it doesn't exist.
 
 ```javascript
-
 const myMap = new Map();
 myMap.set("firstName", "Dennis");
 myMap.set(1, "number");
@@ -51,7 +51,6 @@ myMap.set({ username: "the_user" }, "object");
 console.log(myMap.get(1)); // number
 console.log(myMap.get("firstName")); // Dennis
 console.log(myMap.get("something")); // undefined
-
 ```
 
 - `has(key)`
@@ -59,7 +58,6 @@ console.log(myMap.get("something")); // undefined
 Returns true if the map contains the specified key, false otherwise
 
 ```javascript
-
 const myMap = new Map();
 myMap.set("firstName", "Dennis");
 myMap.set(1, "number");
@@ -76,7 +74,6 @@ console.log(myMap.has("middlename")); // false
 Removes a specified key-value pair from the map.
 
 ```javascript
-
 const myMap = new Map();
 myMap.set("firstName", "Dennis");
 myMap.set(1, "number");
@@ -93,7 +90,6 @@ myMap.delete(1);
 Removes all the key-value pairs from a map.
 
 ```javascript
-
 const myMap = new Map();
 myMap.set("firstName", "Dennis");
 myMap.set(1, "number");
@@ -111,7 +107,6 @@ console.log(myMap); // Map(0) {}
 Returns the number of key-value pairs in a map.
 
 ```javascript
-
 const myMap = new Map();
 myMap.set("firstName", "Dennis");
 myMap.set(1, "number");

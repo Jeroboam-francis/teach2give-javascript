@@ -1,8 +1,8 @@
-## Including JavaScript
+# Including JavaScript
 
 There are two ways of including JavaScript in HTML:
 
-### A. Internally
+## A.Internally
 
    Using `<script>` tag
 
@@ -26,17 +26,17 @@ Using this method requires the script to be placed at the end of the other items
 </html>
 ```
 
-### B. Externally
+## B.Externally
 
 A separate `.js` file is created and linked using `<script>` tag to the HTML file.
 
-```html 
+```html
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>inlcuding javascript in html </title>
+    <title>including javascript in html </title>
     <script src="script.js"></script>
   </head>
   <body>

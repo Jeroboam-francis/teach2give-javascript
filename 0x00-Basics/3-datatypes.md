@@ -1,5 +1,7 @@
 # DATA TYPES
-Datatypes are a way of classifying data. There are different types of datatypes.
+
+Data types are a way of classifying data. There are different types of data types.
+
 1. String
 2. Number
 3. Boolean
@@ -7,14 +9,14 @@ Datatypes are a way of classifying data. There are different types of datatypes.
 5. Null
 6. Undefined
 
-### STRING
+## STRING
 
 It is a data type that is used to represent text or a sequence of characters.
 
-```javascript   
+```javascript
 // string
 
-let firtsName = "Jeroboam";
+let firstsName = "Jeroboam";
 let lastName = "Francis;
 ```
 
@@ -34,7 +36,7 @@ let height = 5.8;
 
 It is a data type that is used to represent true or false values.
 
-```javascript   
+```javascript
 // boolean
 let isMarried = true;
 let isSingle = false;       
@@ -51,6 +53,7 @@ let numberOfCows = 12838373672829282737292927n;
 ```
 
 ### NULL
+
 Used as an intentional absence of a value unlike `undefined` which represents the absence of a value  ie "NOT ASSIGNED "`null` means `empty on purpose`
 
 ```javascript
@@ -59,6 +62,7 @@ let cow = null;
 // no cow yet
 
 ```
+
 ## CHECKING THE TYPES OF VARIABLES USING THE `typoof` OPERATOR
 
 ```javascript
@@ -76,5 +80,3 @@ console.log(typeof isMarried); // boolean
 
 
 ```
-
-
